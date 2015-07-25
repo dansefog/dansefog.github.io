@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset = "utf-8">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link href="css/lightbox.css" type="text/css" rel="stylesheet" media="all" />
+  <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel="stylesheet" type="text/css">
+  <title>Takuya Sugitani's profile</title>
+  <link rel="shortcut icon" href="images/moon.ico">
+</head>
+
+<body background="images/yoake.jpg">
+  <!-- メニュー -->
+  <header>
+    <h1><a href="index.html">Takuya Sugitani's Profile</a></h1>
+    <nav id="top-nav">
+      <ul>
+        <li><a href="#main">HOME</a></li>
+        <li><a href="#about">ABOUT</a></li>
+        <li><a href="#like">LIKE</a></li>
+        <li><a href="#portfolio">PORTFOLIO</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- メインコンテンツ -->
+  <div id="main">
+  <section id="profile" class="site-width">
+      <img src="images/my.jpg" class="center" width="80%" margin-left="auto" margin-right="auto">
+      <p id="profile-sent">
+        <span>杉谷 拓哉</span><br />
+        神戸大学大学院　工学研究科<br />
+        電気電子工学専攻　計算機工学研究室<br />
+        (塚本・寺田研究室)<br />
+        博士課程前期課程<br />
+        <br />
+        <a href="https://www.facebook.com/dancefog" title="Facebook"><img src="images/facebook.png" height="40px"></a>
+        <a href="https://www.flickr.com/photos/126058815@N07/" title="Flickr"><img src="images/flickr.png" height="40px"></a>
+        <a href="https://github.com/dansefog" title="GitHub"><img src="images/git.png" height="40px"></a>
+        <a href="http://cse.eedept.kobe-u.ac.jp/" title="TSUKAMOTO TERADA LABOLATORY"><img src="images/labo.png" height="42px"></a>
+      </p>
+  </section>
+
+    <!-- about -->
+    <section id="about" class="site-width" class="clearfix">
+      <h1 class="title">ABOUT ME</h1>
+      <p>
+        松江工業高等専門学校　電子制御工学科　卒業。<br />
+        高専在学中には、ロボットの行動模倣に関する研究に従事していました。<br />
+        高専を卒業後、神戸大学電気電子工学科に3年次編入学し、<br />
+        現在はウェアラブルコンピューティングに関する研究を行っています。<br />
+      </p>
+      <p>
+        このページは製作物紹介と自己紹介を兼ねたページとなっています。<br />
+      </p>
+    </section>
+
+  <!-- like -->
+  <section id="like" class="site-width">
+    <h1 class="title">LIKE</h1>
+    <section class="panel">
+      <h2>Star Watching</h2>
+      <img src="images/boenkyo.png" class="panel-icon">
+      <p>
+        夜空に浮かぶ星を眺めたり、星座をたどったりするのが好きです。<br>
+        大学では天文研究会に所属しており、
+        晴れた日には星のよく見える場所へ観測に出かけたりすることも。
+      </p>
+    </section>
+    <section class="panel">
+      <h2>Photo</h2>
+      <img src="images/camera.png" class="panel-icon">
+      <p>
+        どこかへお出かけするときには、必ずと言っていいほどカメラを持っていきます。愛機はFujiのX-A1。<br>
+        最近は星空撮影に挑戦中。<br>
+        <a href="https://www.flickr.com/photos/126058815@N07/" title="Flickrへ">flickr</a>
+        に写真をアップしていますので、よろしければご覧ください。
+      </p>
+    </section>
+    <section class="panel">
+      <h2>Programming</h2>
+      <img src="images/programing.png" class="panel-icon">
+      <p>
+        授業や研究、趣味でいろいろなプログラムを書いてきました。<br>
+        ちょっとしたツールを作ったり、ゲームを作ったり…<br>
+        最近はWeb製作ができるようになりたいと思い、勉強しています。
+      </p>
+    </section>
+  </section>
+
+  <!--portfolio(lightboxプラグインを使って詳細をポップアップ表示)-->
+  <section id="portfolio" class="site-width" class="clearfix">
+    <h1 class="title">Portfolio</h1>
+    <p>
+      画像をクリックすると詳細が表示されます。<br />
+      ソースコードが公開可能なものは、GitHubにアップロードしています。<br />
+    </p>
+    <section class="panel portfolio-panel">
+      <a href="images/ARslide.jpg" rel="lightbox"><img src="images/ARshooting_s.png" class="panel-icon portfolio-panel-icon"></a>
+      <p>ARシューティング</p>
+    </section>
+    <section class="panel portfolio-panel">
+      <a href="images/mohouslide.jpg" rel="lightbox"><img src="images/mohou_s.png" class="panel-icon portfolio-panel-icon"></a>
+      <p>手先の動作模倣
+        【<a href="https://github.com/dansefog/DrawStar">コードはこちら</a>】
+      </p>
+    </section>
+    <section class="panel portfolio-panel">
+      <a href="images/yubisasislide.jpg" rel="lightbox"><img src="images/yubisasi_s.png" class="panel-icon portfolio-panel-icon"></a>
+      <p>指さし先共有システム</p>
+    </section><section class="panel portfolio-panel">
+      <a href="images/roboconslide.jpg" rel="lightbox"><img src="images/robocon_s.png" class="panel-icon portfolio-panel-icon"></a>
+      <p>ロボットコンテスト</p>
+    </section>
+    <section class="panel portfolio-panel">
+      <a href="images/yasaislide.jpg" rel="lightbox"><img src="images/yasai_s.png" class="panel-icon portfolio-panel-icon"></a>
+      <p>人面野菜化計画</p>
+    </section>
+    <section class="panel portfolio-panel">
+      <a href="images/seizuslide.jpg" rel="lightbox"><img src="images/seizu_s.png" class="panel-icon portfolio-panel-icon"></a>
+      <p>星図表示
+        【<a href="https://github.com/dansefog/DrawStar">コードはこちら</a>】
+      </p>
+    </section>
+  </section>
+
+  </div>
+</body>
+
+<footer>
+  &copy; Takuya Sugitani
+</footer>
+
+<script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+<script src="lightbox.js" type="text/javascript"></script>
+<script src="main.js" type="text/javascript"></script>
+
+</html>
